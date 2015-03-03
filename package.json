@@ -1,0 +1,28 @@
+{
+  "name": "react-templates-loader",
+  "version": "0.1.0",
+  "description": "react-templates loader module for webpack",
+  "main": "index.js",
+  "peerDependencies": {
+    "react-templates": "^0.1.14",
+    "lodash": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexanderPavlenko/react-templates-loader.git"
+  },
+  "keywords": [
+    "react",
+    "templates",
+    "webpack"
+  ],
+  "author": "Alexander Pavlenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderPavlenko/react-templates-loader/issues"
+  },
+  "homepage": "https://github.com/AlexanderPavlenko/react-templates-loader"
+}
