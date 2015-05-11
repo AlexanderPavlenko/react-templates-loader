@@ -3,7 +3,7 @@ var url = require('url');
 var queryString = require('querystring');
 
 module.exports = function(source) {
-    var options = queryString.parse(url.parse(this.query).query);
+	var options = queryString.parse(url.parse(this.query).query);
 	this.cacheable && this.cacheable();
 	return reactTemplates.convertTemplateToReact(source, options);
 };
