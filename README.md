@@ -21,6 +21,12 @@ var template = require("react-templates!./template.rt");
 }
 ```
 
+When the loader is configured, it shouldn't be referenced in the `require`:
+
+``` javascript
+var template = require("./template.rt");
+```
+
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
