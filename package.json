@@ -4,8 +4,7 @@
   "description": "react-templates loader module for webpack",
   "main": "index.js",
   "peerDependencies": {
-    "react-templates": "^0.3.0",
-    "lodash": "^3.3.0"
+    "react-templates": "^0.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
