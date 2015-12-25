@@ -1,6 +1,6 @@
 {
   "name": "react-templates-loader",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "react-templates loader module for webpack",
   "main": "index.js",
   "peerDependencies": {
