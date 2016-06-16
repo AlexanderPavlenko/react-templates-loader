@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/AlexanderPavlenko/react-templates-loader/issues"
   },
-  "homepage": "https://github.com/AlexanderPavlenko/react-templates-loader"
+  "homepage": "https://github.com/AlexanderPavlenko/react-templates-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.15"
+  }
 }
