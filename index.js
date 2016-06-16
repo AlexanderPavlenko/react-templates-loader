@@ -1,5 +1,4 @@
 var reactTemplates = require('react-templates/src/reactTemplates');
-var url = require('url');
 var loaderUtils = require('loader-utils');
 
 module.exports = function(source) {
