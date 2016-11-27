@@ -15,7 +15,7 @@ var template = require("react-templates!./template.rt");
 {
 	module: {
 		loaders: [
-			{ test: /\.rt/, loader: "react-templates-loader" },
+			{ test: /\.rt$/, loader: "react-templates?modules=amd" },
 		]
 	}
 }
