@@ -3,7 +3,7 @@
 ## Usage
 
 ``` javascript
-var template = require("react-templates!./template.rt");
+var template = require("react-templates-loader!./template.rt");
 // => return exports of executed and compiled template.rt
 ```
 
@@ -15,7 +15,7 @@ var template = require("react-templates!./template.rt");
 {
 	module: {
 		loaders: [
-			{ test: /\.rt$/, loader: "react-templates?modules=amd" },
+			{ test: /\.rt$/, loader: "react-templates-loader?modules=amd" },
 		]
 	}
 }
