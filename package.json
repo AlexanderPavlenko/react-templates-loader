@@ -1,10 +1,10 @@
 {
   "name": "react-templates-loader",
-  "version": "0.5.1",
+  "version": "0.6.1",
   "description": "react-templates loader module for webpack",
   "main": "index.js",
   "peerDependencies": {
-    "react-templates": "^0.5.0"
+    "react-templates": "^0.6.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
