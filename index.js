@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = function(source) {
-	var options = loaderUtils.parseQuery(this.query);
+	var options = loaderUtils.getOptions(this);
 	options.readFileSync = (fileName) => {
 		const filePath = path.resolve(path.dirname(this.resourcePath), fileName);
 		this.addDependency(filePath);

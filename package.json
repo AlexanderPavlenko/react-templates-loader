@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/AlexanderPavlenko/react-templates-loader",
   "dependencies": {
-    "loader-utils": "^0.2.15"
+    "loader-utils": "^1.1.0"
   }
 }
