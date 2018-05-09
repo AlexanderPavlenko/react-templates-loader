@@ -1,4 +1,4 @@
-var reactTemplates = require('react-templates/src/reactTemplates');
+var reactTemplates = require('react-templates/dist/reactTemplates');
 var loaderUtils = require('loader-utils');
 var fs = require('fs');
 var path = require('path');
